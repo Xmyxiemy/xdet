@@ -9,6 +9,7 @@ if __name__=="__main__":
     # pdb.set_trace()
     res = detector.predict(source='data/predict/', project='runs/exp', save=True)
     sys.exit(0)
+    # 修改
     res = detector.train(
         data = "configs/datasets/VOC.yaml",
         split = "train",
